@@ -1,0 +1,14 @@
+<h3>Today's Task</h3>
+<div class="grid grid-pad">
+  <div class="col-1-4" (click)="addTask()">
+    <div class="module task">
+        <h4>Add Task</h4>
+    </div>
+  </div>
+  <a *ngFor="let task of tasks" class="col-1-4"
+      routerLink="/detail/{{task.id}}">
+    <div class="module task">
+      <h4>{{task.name}}</h4>
+    </div>
+  </a>
+</div>
