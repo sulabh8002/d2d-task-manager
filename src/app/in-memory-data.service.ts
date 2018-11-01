@@ -7,18 +7,18 @@ import { InMemoryDbService } from 'angular-in-memory-web-api';
 
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
-    const heroes = [
-      { id: 11, name: 'Mr. Nice' },
-      { id: 12, name: 'Narco' },
-      { id: 13, name: 'Bombasto' },
-      { id: 14, name: 'Celeritas' },
-      { id: 15, name: 'Magneta' },
-      { id: 16, name: 'RubberMan' },
-      { id: 17, name: 'Dynama' },
-      { id: 18, name: 'Dr IQ' },
-      { id: 19, name: 'Magma' },
-      { id: 20, name: 'Tornado' }
+    const tasks = [
+      { id: 1, name: 'Shopping' },
+      { id: 2, name: 'Visiting Doctor' },
+      { id: 3, name: 'Task 3' },
+      { id: 4, name: 'Task 4' },
+      { id: 5, name: 'Task 5' },
+      { id: 6, name: 'Task 6' },
+      { id: 7, name: 'Task 7' },
+      { id: 8, name: 'Task 8' },
+      { id: 9, name: 'Task 9' },
+      { id: 10, name: 'Task 10' }
     ];
-    return {heroes};
+    return {tasks};
   }
 }

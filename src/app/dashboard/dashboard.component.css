@@ -60,3 +60,11 @@ h4 {
     min-width: 60px;
   }
 }
+.button {
+  border-radius: 50%;
+  background-color: green;
+}
+#remove {
+  position: relative;
+  margin-left: 110px;
+}

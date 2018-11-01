@@ -28,3 +28,6 @@ label {
     color: #ccc;
     cursor: auto;
   }
+  .back {
+    margin-left: 20px;
+  }
