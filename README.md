@@ -1,27 +1,54 @@
-# AngularTourOfHeroes
+# D2D task manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+> A web app to keep track of your daily tasks.
 
-## Development server
+#Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+-Installation
+-Features
+-Contributing
+-Team
+-FAQ
+-Support
+-License
 
-## Code scaffolding
+#Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##Clone
+-Clone this repo to your local machine using https:/github.com/sulabh8002/d2d-task-manager
 
-## Build
+##Setup
+> To run on local machine
+-Enter the following commands
+    -$npm install
+    -$ng serve
+> To run on the qa server
+-Enter the following commands
+    -$npm install
+    -$ng build --prod
+-Copy the files in the dist folder to the server folder
+> To run on the production server
+-Comment out the links in the files containing the urls of qa server
+-Uncomment the links in the files containing the urls of production server
+-Enter the following commands
+    -$npm install
+    -$ng build --prod
+-Copy the files in the dist folder to the server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+#Features
+-Add tasks
+-Mark completed tasks
+-Delete the tasks you want to remove
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#Contributing
+> To get started
+> Step 1
+-Option 1
+    -Clone this repo to your local machine using ....
 
-## Running end-to-end tests
+#Team
+>Or Contributers/People
+-github.com/sulabh8002
+-github.com/xyz
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
