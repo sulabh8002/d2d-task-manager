@@ -1,6 +1,6 @@
 # D2D task manager
 
-> A web app to keep track of your daily tasks.
+>A web app to keep track of your daily tasks.
 
 # Table of Contents
 
